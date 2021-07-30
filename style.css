@@ -1,0 +1,60 @@
+    * {
+        background-color: rgb(246, 205, 205);
+        text-align: center;
+        font-family: 'Elsie Swash Caps';
+    }
+    
+    h1 {
+        font-size: 50px;
+        color: #BB0A41;
+    }
+    
+    div.list {
+        border: 2px #BB0A41 dashed;
+        margin: 30px auto;
+        width: 1000px;
+        padding: 20px;
+    }
+    
+    label {
+        color: #BB0A41;
+        font-size: 30px;
+    }
+    
+    select {
+        color: #BB0A41;
+        font-size: 30px;
+    }
+    
+    input {
+        margin: 20px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    
+    button {
+        color: #BB0A41;
+        margin: 20px;
+        font-size: 30px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    /* Style the list items */
+    
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+    }
+    
+    span {
+        margin: 30px;
+        font-size: 30px;
+    }
+    
+    .close:hover {
+        background-color: #f0bfd7;
+    }

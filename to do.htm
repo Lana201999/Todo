@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="descrption" content="flamingo gift shop">
+    <meta name="descrption" content="To Do">
     <!-- ?? -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>To Do</title>
@@ -14,13 +14,22 @@
 </head>
 
 <body>
-    <div>
-        <label id="to">To do</label>
-        <input type="text" id="myInput">
-        <button type="button" onclick="toDo()">Enter</button>
-        <div id="list">
+    <h1>To Do</h1>
 
-        </div>
+    <div class="list">
+        <span class="to"><label>To do</label>
+            <input type="text" id="myInput"></span>
+        <span class="to"><label>Expire in</label>
+            <input type="text" id="date">
+            <select name="Time" id="time">
+        <option value="day" id="d">Day</option>
+        <option value="houre" id="h">Houre</option>
+        <option value="minute" id="m">Minute</option>
+        <option value="second" id="s">Second</option>
+        </select></span>
+        <button type="button" onclick="toDo()">Enter</button>
+        <ul id="list">
+        </ul>
     </div>
 
 </body>
